@@ -26,7 +26,7 @@ public class EmployeeRepositoryTest {
   }
 
   @Test
-  public void 직원조회(){
+  public void 직원등록(){
     //given
     String name = "직원1";
     String identityNumber = "940527-1685016";
