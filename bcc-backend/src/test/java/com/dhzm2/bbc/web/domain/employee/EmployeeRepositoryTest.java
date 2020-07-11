@@ -29,9 +29,9 @@ public class EmployeeRepositoryTest {
   public void 직원등록(){
     //given
     String name = "직원1";
-    String identityNumber = "940527-1685016";
-    String phoneNumber = "010-8262-3777";
-    String address = "대구시 북구 동천동 동화골든빌 112-1507";
+    String identityNumber = "123456-1234567";
+    String phoneNumber = "010-1234-5678";
+    String address = "대구시 북구 동천동";
 
     employeeRepository.save(Employee.builder()
             .name(name)
